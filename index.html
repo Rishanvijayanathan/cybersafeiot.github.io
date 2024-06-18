@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+	
+
+
+
+    <title>CyberSafe</title>
+</head>
+<body style="background-color: #0A192F
+">
+    <!-- NavBar -->
+    <nav id="navmenu" class="navbar navbar-expand-lg sticky-top">
+        <a class="navbar-brand" href="#home">
+            <img src="./Images/logo/icon.png" width="50" height="50" class="d-inline-block align-top"  loading="lazy">
+            <span style="color:#9FEF00">CyberSafe</span></br>
+        </a>
+        <button id="nav-toggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span id="nav-toggle-icon" class="fas fa-ellipsis-v"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul id="navmenu-links" class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Project Scope
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#project-scope">Literature Survey</a>
+                <a class="dropdown-item" href="#research_gap">Research Gap</a>
+                <a class="dropdown-item" href="#research_problem">Research Problem & Solution</a>
+                <a class="dropdown-item" href="#research_objectives">Research Objectives</a>
+                <a class="dropdown-item" href="#methodology">Methodology</a>
+                <a class="dropdown-item" href="#tech_used">Technologies</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#milestones">Milestones</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Downloads
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#downloads">Documents</a>
+                  <a class="dropdown-item" href="#presentations">Presentations</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Home -->
+      <section id="home">
+        <div class="container">
+            <div class="hero-cta">
+                <h1>CyberSafe<br/>Intrusion detection system for IOT Edge devices</h1>
+                <a class="btn btn-outline-light" type="button" href="#project-scope"><span class="btn-text">Learn More</span><span class="fas fa-chevron-right btn-icon"></span></a>
+            </div>
+        </div>
+        <div class="hero-cover">
+            <img class="hero-image" src="./Images/other/background.jpg"/>
+        </div>
+      </section>
+      <!-- project-scope -->
+      <section id="project-scope" class="main-sections" style="background-color:#0A192F">
+        <div class="container">
+            <h5 class="section-headings">Project Scope</h5>
+            <!-- Literature Survey -->
+            <div id="literature" class="sub-section" style="color:white">
+              <h2>Literature Survey</h2>
+               <div class="row">
+					     <p>The Internet of Things (IoT) has become a significant concern in the field of cybersecurity due to its increasing adoption and the numerous vulnerabilities it poses. Various studies have been conducted to address these concerns, including those on reconnaissance attacks, DDoS attacks, and ransomware attacks. For instance, a study proposed a machine learning-based heuristic algorithm to combat SQL injection attacks, achieving a remarkable 93.8% accuracy rate. Another study presented a novel methodology for detecting unusual DDoS attacks using the Mirai dataset, with a combination of random forest and decision trees achieving an impressive accuracy rate of 99.7%.</p>
+				       <p>Researchers have also explored the application of machine learning and deep learning techniques for IoT security. A study proposed a deep learning-based system for network intrusion detection on small routers at the IoT edge, achieving remarkable accuracy (99.991%) and low latency (less than 16ms). Another study designed a cloud-based IoT framework architecture, utilizing deep learning for real-time anomaly detection, yielding high accuracy (up to 99.99%). Additionally, a study reviewed various machine learning models for intrusion detection in IoT networks, concluding that Random Forest exhibited superior performance, albeit with higher processing power requirements. These studies demonstrate the potential of machine learning and deep learning in addressing the security concerns of IoT devices and networks.</p>
+                   <div class="references">
+                     <p class="pt-sm-1"><strong>References</strong></p>
+                     <ol>
+                       <li>R. Miriyagalla, Y. Samarawickrama, D. Rathnaweera, L. Liyanage, D. Kasthurirathna, D. Nawinna, and J. L. Wijekoon, “On the effectiveness of using machine learning and Gaussian Plume model for plant disease dispersion prediction and simulation,” International Conference on Advancements in Computing, ICAC 2019,.
+                       <li>A. Chandy, “Pest infestation identification in coconut trees using deep learning,” Journal of Artificial Intelligence and Capsule Networks, vol. 01, no. 01, pp. 10–18, 2019.</li>
+                       <li>S. Sladojevic, M. Arsenovic, A. Anderla, D. Culibrk, and D. Stefanovic, “Deep Neural Networks based recognition of plant diseases by Leaf Image Classification,” Computational Intelligence and Neuroscience, vol. 2016, pp. 1–11, 2016.</li>
+                     </ol>
+                   </div>
+               </div>
+            </div>
+            <!-- Research Gap -->
+            <div id="research_gap" class="sub-section" style="color:white" >
+              <h2>Research Gap</h2>
+              <p> The field of Network Intrusion Detection Systems (NIDS) on IoT edge devices faces several critical research gaps. Comprehensive studies comparing different ANN architectures for NIDS are lacking, as are standardized benchmarking frameworks to evaluate these architectures under varied conditions. There is limited research on deploying NIDS with ANNs on resource-constrained IoT edge devices and optimizing these models for efficiency without sacrificing detection accuracy. The unique challenges of adapting to dynamic and heterogeneous IoT environments, such as frequent device changes, are underexplored. Additionally, there is a scarcity of diverse datasets tailored for reconnaissance, DDoS, and injection attacks. Research is needed to develop lightweight deep learning models for resource-constrained devices and to enhance model robustness against evolving ransomware tactics through adversarial training.</p>
+            </div>
+            <!-- Research Problem -->
+            <div id="research_problem" class="sub-section" style="color:white">
+              <h2>Research Problem & Solution</h2><br>
+			   <div class="row">
+                 <h5><strong>Proposed Problem</strong></h5>
+				 </br>
+					<p></p>
+					<p style="text-align: justify;">This research aims to evaluate the impact of various ANN architectures on the performance of Network Intrusion Detection Systems (NIDS) on IoT edge devices. While the current study compares feedforward, shallow, deep, and hybrid ANNs, there is a need for a more comprehensive analysis covering a broader range of architectures. This expanded study will assess how different ANN models affect NIDS performance metrics, including accuracy, F1 score, sensitivity, specificity, and training time, to identify the most effective approaches for enhancing security in resource-constrained IoT environments.</p>
+				</br>
+				</div>
+
+				<div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5">
+              </div>
+			     <div>
+				 <h5><strong>Proposed Solution</strong></h5>
+				 </br>
+				 <p style="text-align: justify;"> To address the research gap and problem, we propose a comprehensive solution that leverages advanced techniques in artificial neural networks (ANNs) and edge computing to develop a robust and efficient Network Intrusion Detection System (NIDS) for IoT edge devices. The solution involves designing and implementing a range of ANN architectures, including feedforward, shallow, deep, and hybrid models, and training them on a diverse dataset of IoT network traffic, including reconnaissance, DDoS, injection, and ransomware attacks. The trained models are then optimized for deployment on resource-constrained IoT edge devices through pruning, quantization, and knowledge distillation, and are evaluated using a standardized benchmarking framework. Additionally, adversarial training techniques are employed to enhance model robustness against evolving ransomware tactics. The optimized models are then deployed on IoT edge devices and evaluated in real-world scenarios, considering factors such as device hardware and software limitations, network latency, and power consumption. The expected outcomes include a comprehensive analysis of ANN architectures for NIDS on IoT edge devices, optimized models that balance detection accuracy and computational efficiency, a standardized benchmarking framework, and a robust and efficient NIDS that detects a wide range of attacks in various IoT environments and scenarios.</P>
+                </div>
+          </div>
+            <!-- Research Objectives -->
+		   <div id="research_objectives" class="sub-section" style="color:white">
+        <div class="container">
+          <h2 class="pb-5 pt-5 text-center mb-5 display-5">Research Objectives</h2>
+          <!-- First Content Section-->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+            <div class="col-6">
+              <h4>Evaluating ANN Architectures for NIDSe</h4>
+              <p style="text-align: justify;">This involves comparing the performance of different ANN architectures, including feedforward, shallow, deep, and hybrid models, in detecting various types of attacks, such as reconnaissance, DDoS, injection, and ransomware. The evaluation will focus on NIDS performance metrics, including accuracy, F1 score, sensitivity, specificity, and training time, to identify the most effective ANN architecture for NIDS on IoT edge devices.</p>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Second Content Section-->
+          <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+              <h4>Optimizing NIDS Performance</h4>
+              <p style="text-align: justify;">The research will investigate the effects of ANN architecture on NIDS performance in terms of detection accuracy, computational efficiency, and power consumption. This will involve evaluating the impact of ANN architecture on the trade-off between detection accuracy and computational efficiency, and identifying the most effective ANN approach for balancing these competing factors. The research will also explore the use of techniques such as pruning, quantization, and knowledge distillation to reduce the complexity of ANN models and optimize their performance on resource-constrained IoT edge devices.</p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+          <!-- Third Content Section -->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+            <div class="col-6">
+              <h4>Developing a Robust NIDS</h4>
+              <p style="text-align: justify;">
+                This involves developing a dataset of IoT network traffic that includes a diverse range of attacks and normal traffic, and training and testing the NIDS on this dataset to evaluate its performance in detecting various types of attacks. The research will also investigate the effectiveness of the NIDS in detecting attacks in different IoT environments and scenarios, such as industrial control systems, smart homes, and healthcare systems.
+              </p>
+            </div>
+          </div>
+		   <!-- Path Line -->
+
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Second Content Section-->
+          <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+              <h4>Enhancing Security in Resource-Constrained Environments</h4>
+              <p style="text-align: justify;">This involves evaluating the performance of different ANN architectures and optimization techniques in terms of detection accuracy, computational efficiency, and power consumption, and identifying the most effective approach for balancing detection accuracy and computational efficiency. The research will also explore the use of adversarial training techniques to enhance the robustness of the NIDS against evolving ransomware tactics and other types of attacks. By achieving these objectives, this research aims to develop a robust and efficient NIDS that can effectively detect and prevent attacks in IoT environments and scenarios.</p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- Methodology -->
+            <div id="methodology" class="sub-section" style="color:white">
+              <h2>Methodology</h2>
+              <div class="row">
+                <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
+                  <div class="section-left">
+                    <div class="section-figure">
+                      <img src="./Images/other/architecture.png" width="100%"/>
+                      <p>Figure 2. High Level Architecture of the system.</p>
+                    </div>
+                  </div>
+                </div>
+                <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+				  <p>The researchers developed a robust network intrusion detection system (IDS) to safeguard IoT edge devices against various cyber threats, including DDoS attacks, injection attempts, reconnaissance activities, and ransomware. To achieve this, they employed artificial neural networks (ANNs) and curated diverse datasets representative of different attack types, such as NF-BoT-IoT-v2, NF-ToN-IoT-v2, CICIoT2023, and Edge IIoT. They employed tailored data preprocessing and feature extraction techniques for each attack type, including label encoding, min-max scaling, mutual information gain, and Pearson correlation.</p>
+				  <p>The researchers evaluated various ANN architectures, including feedforward, shallow, deep, and hybrid ANNs, and tuned hyperparameters to optimize performance for each attack type. They employed feature selection techniques, such as Extra Trees Classifier, to identify the most relevant features for each attack type. The IDS was trained using the curated datasets and evaluated using metrics such as accuracy, precision, recall, and F1-score. The conclusive model was stored as a TensorFlow model and executed on a Raspberry Pi 3 B+ (RPI) to demonstrate its effectiveness in real-world IoT edge scenarios. The researchers' methodology provides a foundation for further research, including exploration of alternative machine learning algorithms, hyperparameter optimization, and real-time performance evaluation on actual IoT devices.</p>
+                </div>
+              </div>
+          </div>
+            <!-- Technologies Used -->
+            <div id="tech_used" class="sub-section" style="color:white">
+              <h2>Technologies Used</h2>
+              <div class="row technology mt-5">
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/python.png" alt="Python">
+                  </div>
+                  <p>Python</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/react.png" alt="React">
+                  </div>
+                  <p>React</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/tensorflow.png" alt="Python">
+                  </div>
+                  <p>Tensorflow</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/keras.png" alt="Keras">
+                  </div>
+                  <p>Keras</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/Raspberry Pi.png" alt="Raspberry Pi">
+                  </div>
+                  <p>Raspberry Pi</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/mongo.jpg" alt="MongoDB">
+                  </div>
+                  <p>Firebase</p>
+                </div>
+          </div>
+        </div>
+      </section>
+      <!-- Milestones -->
+      <section id="milestones" class="main-sections" style="color:white">
+        <div class="container">
+            <h5 class="section-headings">Milestones</h5>
+            <div class="sub-section">
+                <h2>Timeline in Brief</h2>
+                <div class="milestones">
+                  <ul class="timeline">
+                    <!-- Project Proposal -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">August 2023</p>
+                        <h3>Project Proposal</h3>
+                        <p>A Project Proposal is presented to potential sponsors or clients to receive funding or get your project approved.</p>
+                        <p><strong>Marks Allocated : </strong>6</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 6%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">6%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Progress Presentation I -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">November 2023</p>
+                        <h3>Progress Presentation I</h3>
+                        <p>Progress Presentation I reviews the 50% completetion status of the project. This reveals any gaps or inconsistencies in the design/requirements.</p>
+                        <p><strong>Marks Allocated : </strong>6</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 12%" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 6%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">6%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Research Paper -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">March 2024</p>
+                        <h3>Research Paper</h3>
+                        <p>Describes what you contribute to existing knowledge, giving due recognition to all work that you referred in making new knowledge</p>
+                        <p><strong>Marks Allocated : </strong>10</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 27%" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Progress Presentation II -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">March 2024</p>
+                        <h3>Progress Presentation II</h3>
+                        <p>Progress Presentation II reviews the 90% completetion status demonstration of the project. Along with a Poster presesntation which describes the project as a whole.</p>
+                        <p><strong>Marks Allocated : </strong>18</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 37%" aria-valuenow="37" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 18%" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">18%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Website -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">June 2024</p>
+                        <h3>Website Assessment</h3>
+                        <p>The Website helps to promote our research project and reveals all details related to the project.</p>
+                        <p><strong>Marks Allocated : </strong>2</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 2%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100">2%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Logbook -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">June 2024</p>
+                        <h3>Logbook</h3>
+                        <p>Status of the project is validated through the Logbook. This also includes, Status documents 1 & 2.</p>
+                        <p><strong>Marks Allocated : </strong>3</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 57%" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 3%" aria-valuenow="4" aria-valuemin="0" aria-valuemax="100">3%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Final Report -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">July 2024</p>
+                        <h3>Final Report</h3>
+                        <p>Final Report evalutes the completed project done throughout the year. Marks mentioned below includes marks for Individual & group reports and also Final report.</p>
+                        <p><strong>Marks Allocated : </strong>19</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 61%" aria-valuenow="61" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 19%" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100">19%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Viva -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">May 2024</p>
+                        <h3>Final Presentation & Viva</h3>
+                        <p>Viva is held individually to assess each members contribution to the project.</p>
+                        <p><strong>Marks Allocated : </strong>20</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- Downloads -->
+      <section id="downloads" class="main-sections" >
+        <div class="container" style="color:white">
+            <h5 class="section-headings">Downloads</h5>
+            <!-- Documents -->
+            <div class="sub-section">
+                <h2>Documents</h2>
+                <p>Please find all documents related to this project below.</p>
+                <div class="row mt-sm-5 downloads-container"style="color: white" >
+				 <!-- Topic Assessment -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" style="background-color:black">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Topic Assessment</h5>
+                      </div>
+                      <ul class="download-items list-group list-group-flush" >
+                        <li class="list-group-item" style="background-color:black">Group<a href="https://drive.google.com/drive/folders/1XjuU-i-r3W4OddnsAczKcSM-NIvbslJr?usp=sharing" target="_blank">View</a></li>
+                        <!-- <li class="list-group-item">Individual<a href="">Download</a></li> -->
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Project Proposal -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" style="background-color:black">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Project Proposal</h5>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item" style="background-color:black">Individual<a href="https://drive.google.com/drive/folders/1nyZDwpraqYtPpFyHydCEI-vhGiqWqGI4?usp=sharing" target="_blank">View</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Status Documents -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" style="background-color:black">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Status Documents I</h5>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <!-- <li class="list-group-item">Group<a href="">Download</a></li> -->
+                        <li class="list-group-item" style="background-color:black">Individual<a href="https://drive.google.com/drive/folders/1tMXCorDe0K8mHTKcMVxQ3FSwPRYBimwe?usp=sharing" target="_blank">View</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Status Documents -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" style="background-color:black">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Status Documents II</h5>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <!-- <li class="list-group-item">Group<a href="">Download</a></li> -->
+                        <li class="list-group-item" style="background-color:black">Individual<a href="https://drive.google.com/drive/folders/1_XmIDlup8rk5ouqoW_PkuilzCFRAp1xB?usp=sharing" target="_blank">View</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Research -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" style="background-color:black">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Research Paper</h5>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item" style="background-color:black">Group<a href="https://drive.google.com/drive/folders/1s8AraKaDMxyvWvA1pwH7ONj6LQBYUnM_?usp=sharing" target="_blank">View</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Log Book -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" style="background-color:black">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Project Charter</h5>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item"style="background-color:black">Individual<a href="https://drive.google.com/drive/folders/1MzDQTRF-_PVmGxO9Vh7PF9bv_ioaNngm?usp=sharing" target="_blank">View</a></li>
+                        <!-- <li class="list-group-item">Individual<a href="">Download</a></li> -->
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Final Report -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" style="background-color:black">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Final Report</h5>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item" style="background-color:black">Group<a href="https://drive.google.com/drive/folders/1jyFhVSV9WR1sVPyTqZvPMqAx2j3maDrv?usp=drive_link" target="_blank">View</a></li>
+                        <li class="list-group-item" style="background-color:black">Individual<a href="https://drive.google.com/drive/folders/1ZVUAf2tKz3urtG4wNAfzuG8wu1t4BbZ_?usp=drive_link" target="_blank">View</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Poster -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" style="background-color:black">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-image mr-2 download-image"></i>Poster</h5>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item" style="background-color:black">Group<a href="https://drive.google.com/drive/folders/1Ph1bfOj_FM0FqYv84DZjZO6m52Uzo4DB?usp=sharing" target="_blank">View</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- Presentations -->
+            <div id="presentations" class="sub-section" style="color:white">
+                <h2>Presentations</h2>
+                <p>Please find all presentations related this project below.</p>
+                <div class="row mt-sm-5 downloads-container" style="color:white">
+                  <!-- Project Proposal -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" style="background-color:black">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Project Proposal</h5>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item" style="background-color:black">Group<a href="https://docs.google.com/presentation/d/1Biwy39LnV08gSLDbiP_LxhTrPZoNQa1R/edit?usp=drive_link&ouid=116710888877478427231&rtpof=true&sd=true" target="_blank">View</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Progress Presentation I -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" style="background-color:black">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress Presentation I</h5>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item" style="background-color:black">Group<a href="hhttps://docs.google.com/presentation/d/1Wc7648ltDYRzZbA20kHzg73m-TnCR9u2/edit?usp=drive_link&ouid=116710888877478427231&rtpof=true&sd=true" target="_blank">View</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Progress Presentation II -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" style="background-color:black">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress Presentation II</h5>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item" style="background-color:black">Group<a href="https://docs.google.com/presentation/d/1BSRilY3V5shfORX6_lus_KeHyTezGCNU/edit?usp=drive_link&ouid=116710888877478427231&rtpof=true&sd=true" target="_blank">View</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Final Presentation -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" style="background-color:black">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Final Presentation</h5>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item" style="background-color:black">Group<a href="https://docs.google.com/presentation/d/14CKhqTIp715GzAsBho7zT4rF1hZGPunv/edit?usp=drive_link&ouid=116710888877478427231&rtpof=true&sd=true" target="_blank">View</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- About Us -->
+      <section id="about" class="main-sections " style="background-color:#0A192F">
+        <div class="container" style="color:black">
+            <h5 class="section-headings">About Us</h5>
+            <div class="sub-section about-us-container" style="color:white">
+                <h2>Meet Our Team !</h2>
+                <div class="row  mt-sm-5 " style="color:black" >
+                  <!-- Supervisor -->
+                  <div class="col-lg-3 col-md-4 col-sm-12" style=>
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/supervisor.jpg" class="about-us-image supervisor" alt="Dr. Harinda Fernando" height="20%"/>
+                      <div class="card-body">
+                        <h5 class="card-title">Dr. Harinda Fernando</h5>
+						</br>
+                        <span class="badge badge-secondary">Supervisor</span>
+                        <div class="text-group">
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                          <p><strong>Department</strong></p>
+                          <p>Computing</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush" >
+                        <li class="list-group-item" style="background-color:black">
+                          <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/harinda-fernando-7655bb67/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:janaka.w@sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Co Supervisor -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/cosupervisor.jpg" class="about-us-image cosupervisor" alt="Mr. Kavinga Abeywardena" height="20%"/>
+                      <div class="card-body">
+                        <h5 class="card-title">Mr. Kavinga Abeywardena</h5>
+						</br>
+                        <span class="badge badge-secondary">Co-Supervisor</span>
+                        <div class="text-group">
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                          <p><strong>Department</strong></p>
+                          <p>Computing</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item" style="background-color:black">
+                          <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/kavinga-yapa-abeywardena-a1386361/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:dilani.l@sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+				  </div>
+				  <div class="row  mt-sm-5" style="justify-content: center">
+                  <!-- Rishan -->
+                  <div class="col-lg-3 col-md-4 col-sm-12"  style="color:black">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/rishan.jpeg" class="about-us-image " alt="Rishan Vijayanathan" height="20%"/>
+                        <div class="card-body">
+                        <h5 class="card-title">Rishan<br>Vijayanathan</h5>
+						</br>
+                        <span class="badge badge-secondary">Group Leader</span>
+                        <div class="text-group">
+						<p><strong>Undergraduate</strong></p>
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                        <p><strong>Department</strong></p>
+                          <p>Cyber Security</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item" style="background-color:black">
+						<a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/samitha-vidhana-arachchi"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:rishanvijayanathan@gmail.com"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Pavithiran -->
+                   <div class="col-lg-3 col-md-4 col-sm-12"  style="color:black">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/pavithiran.jpeg" class="about-us-image" alt="Pavithiran Sivagnanamoorthy" height="20%"/>
+                        <div class="card-body">
+                        <h5 class="card-title">Pavithiran<br>Sivagnanamoorthy</h5>
+						</br>
+                        <span class="badge badge-secondary">Group Member</span>
+                        <div class="text-group">
+						<p><strong>Undergraduate</strong></p>
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                        <p><strong>Department</strong></p>
+                          <p>Cyber Security</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item" style="background-color:black">
+						<a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/pavithiran-sivagnanamoorthy-4b2942207/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:pavithiranpraveen@gmail.com "><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Hardeesh -->
+                          <div class="col-lg-3 col-md-4 col-sm-12"  style="color:black">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/hardeesh.jpeg" class="about-us-image" alt="Hardeesh Sriskandaraja" height="20%"/>
+                        <div class="card-body">
+                        <h5 class="card-title">Hardeesh<br>Sriskandaraja</h5>
+						</br>
+                        <span class="badge badge-secondary">Group Member</span>
+                        <div class="text-group">
+						<p><strong>Undergraduate</strong></p>
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                        <p><strong>Department</strong></p>
+                          <p>Cyber Security</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item" style="background-color:black">
+						<a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/hardeesh-sriskandaraja-38121b14b/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:ghardeesh97@gmail.com "><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Dinesh -->
+                    <div class="col-lg-3 col-md-4 col-sm-12"  style="color:black">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/dinesh.jpeg" class="about-us-image" alt="Dinesh Kanagarathnam" height="20%"/>
+                        <div class="card-body">
+                        <h5 class="card-title">Dinesh<br>Kanagarathnam</h5>
+						</br>
+                        <span class="badge badge-secondary">Group Member</span>
+                        <div class="text-group">
+						<p><strong>Undergraduate</strong></p>
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                        <p><strong>Department</strong></p>
+                          <p>Cyber Security</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item" style="background-color:black">
+						<a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/kanagarathnam-dinesh-7b9508173/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:dineshdina.lk@gmail.com "><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+				  </div>
+            </div>
+        </div>
+      </section>
+
+
+      <!-- Contact Us -->
+      <section id="contact" class="main-sections" style="background-color:#0A192F">
+        <div class="container" style="color:white">
+            <h5 class="section-headings">Contact Us</h5>
+            <div class="sub-section">
+                <h2>Get in Touch</h2>
+                <div class="row  mt-sm-5">
+                  <div class="col-md-6 col-sm-12 contact-form">
+                    <form action="MAILTO:cybersafeiot@outlook.com" method="POST" enctype="text/plain">
+                      <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="John Doe" style="background-color:black">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com" style="background-color: black">
+                      </div>
+                      <div class="form-group">
+                        <label for="message">Message or Query</label>
+                        <textarea class="form-control" id="message" rows="5" style="background-color:black"></textarea>
+                      </div>
+                      <button type="submit" class="btn btncolorgradient">Submit</button>
+                    </form>
+                  </div>
+                  <div class="col-md-6 col-sm-12 contact-details">
+                    <div>
+                      <p><strong>Contact Details</strong></p>
+                      <p>For further queries please reach us at <a href="mailto: cybersafeiot@outlook.com">cybersafeiot@outlook.com</a></p>
+                      <p>Hope this project helped you in some manner. Thank you!</p>
+                      <p>-Team CyberSafe	</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- Scripts -->
+    <script src="./lib/jquery/jquery-3.5.1.slim.min.js"></script>
+    <script src="./lib/fontawesome/js/all.min.js"></script>
+    <script src="./lib/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
